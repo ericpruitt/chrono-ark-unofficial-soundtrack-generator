@@ -11,7 +11,7 @@ path to the output directory. If the output directory does not exist, it will
 be created automatically as long as the parent directory exists. This script
 depends on [FFmpeg](https://ffmpeg.org/) to generate the output files. Although
 the script has only been tested on Linux with  Python 3.9+, it should work on
-any operating system that have the "ffmpeg" and "ffprobe" executables in a
+any operating systems that have the "ffmpeg" and "ffprobe" executables in a
 `$PATH`/`%PATH` directory and any version of Python starting from 3.6.
 
 **NOTE:** I made this script because, at the time of this writing, the game's
