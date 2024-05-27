@@ -3,16 +3,22 @@ Chrono Ark Unofficial Soundtrack Generator
 
 This repository contains a script to generate an unofficial soundtrack from the
 Unity asset files of the rogue-like deckbuilder game [Chrono
-Ark](https://store.steampowered.com/app/1188930/Chrono_Ark/). **This repository
-does not include any copyrighted content from the Chrono Ark game and is
-useless without the uncompressed game assets.** The script takes two arguments:
-the first argument is the containing the audio assets, and the second is the
-path to the output directory. If the output directory does not exist, it will
-be created automatically as long as the parent directory exists. This script
-depends on [FFmpeg](https://ffmpeg.org/) to generate the output files. Although
-the script has only been tested on Linux with  Python 3.9+, it should work on
-any operating systems that have the "ffmpeg" and "ffprobe" executables in a
-`$PATH`/`%PATH` directory and any version of Python starting from 3.6.
+Ark](https://store.steampowered.com/app/1188930/Chrono_Ark/). It combines
+tracks that are spread across multiple files, repeats some parts of the loops
+to make the tracks longer and adds fading to tracks that loop so the
+transitions aren't so abrupt. Some generic names have been replaced with titles
+from [Soundcloud](https://soundcloud.com/cosmogrph/sets/chrono-ark-work) and
+[Bandcamp](https://selector.bandcamp.com/album/chrono-ark-ost) listings by the
+artists. **This repository does not include any copyrighted content from the
+Chrono Ark game and is useless without the uncompressed game assets.** The
+script takes two arguments: the first argument is the containing the audio
+assets, and the second is the path to the output directory. If the output
+directory does not exist, it will be created automatically as long as the
+parent directory exists. This script depends on [FFmpeg](https://ffmpeg.org/)
+to generate the output files. Although the script has only been tested on Linux
+with  Python 3.9+, it should work on any operating systems that have the
+"ffmpeg" and "ffprobe" executables in a `$PATH`/`%PATH` directory and any
+version of Python starting from 3.6.
 
 **NOTE:** I made this script because, at the time of this writing, the game's
 music is not available for purchase. If you are reading this after the official
