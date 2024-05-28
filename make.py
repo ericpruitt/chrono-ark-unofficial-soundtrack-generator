@@ -97,7 +97,6 @@ def build_track(output_directory, track, trackno):
 
     argv = ["ffmpeg", "-v", "quiet"]
     components = []
-    mutating_filters = []
     filter_graph = []
     filter_id = 0
 
@@ -118,13 +117,11 @@ def build_track(output_directory, track, trackno):
                     f"[f{filter_id}]" if filter_index else f"[{file_index}]"
                 )
                 filter_id += 1
-                mutating_filters.append(f"{stream_in} {desc} [f{filter_id}]")
+                filter_graph.append(f"{stream_in} {desc} [f{filter_id}]")
 
             components.append(f"[f{filter_id}]")
         else:
             components.append(f"[{file_index}]")
-
-    filter_graph = []
 
     if gap:
         components.append("[silence]")
@@ -132,7 +129,6 @@ def build_track(output_directory, track, trackno):
             f"anullsrc=r=48000:duration={gap} [silence]"
         )
 
-    filter_graph.extend(mutating_filters)
     filter_graph.append(
         f"{''.join(components)} concat=n={len(components)}:v=0:a=1 [out]"
     )
