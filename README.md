@@ -11,8 +11,8 @@ from [Soundcloud](https://soundcloud.com/cosmogrph/sets/chrono-ark-work) and
 [Bandcamp](https://selector.bandcamp.com/album/chrono-ark-ost) listings by the
 artists. **This repository does not include any copyrighted content from the
 Chrono Ark game and is useless without the uncompressed game assets.** The
-script takes two arguments: the first argument is the containing the audio
-assets, and the second is the path to the output directory. If the output
+script takes two arguments: the first argument is the directory containing the
+audio assets, and the second is the path to the output directory. If the output
 directory does not exist, it will be created automatically as long as the
 parent directory exists. This script depends on [FFmpeg](https://ffmpeg.org/)
 to generate the output files. Although the script has only been tested on Linux
