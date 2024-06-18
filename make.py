@@ -103,6 +103,8 @@ def build_track(output_directory, track, trackno):
     gap = track.get("gap", 0)
     assert gap >= 0
 
+    lyrics_file = track.get("lyrics-file")
+
     for file_index, source in enumerate(track["parts"]):
         parts = source.split("\0")
         path = parts[-1]
@@ -143,6 +145,10 @@ def build_track(output_directory, track, trackno):
 
     if track.get("artist"):
         argv += ["-metadata", f"ARTIST={track['artist']}"]
+
+    if lyrics_file:
+        with open(os.path.join(os.path.dirname(__file__), lyrics_file)) as fd:
+            argv += ["-metadata", f"LYRICS={fd.read()}"]
 
     argv += [output]
 
@@ -466,6 +472,7 @@ def main(argv):
         {
             "name": "Azar Boss Theme Phase 2 (feat. FiNE)",
             "artist": "Lee Dong Hoon (Studio EIM)",
+            "lyrics-file": "azar-boss-theme-2-lyrics.txt",
             "parts": [
                 fade_out("Azar_Boss_Theme_Phase2_(Intro).wav", -12, 9),
             ],
