@@ -60,7 +60,7 @@ purchasing the music.
 12. Encounter Dorchi
 13. Place of Void (Bloody Park 1 Field Theme)
 14. After Revive (Bloody Park 1 Battle Theme)
-15. Bloody Park 1 Boss Theme
+15. Bloody Park Boss Theme
 16. Show Time (The Joker's Theme)
 17. The Phenomenon (Bloody Park 2 Field Theme)
 18. Obstructor (Bloody Park 2 Battle Theme)
@@ -78,7 +78,7 @@ purchasing the music.
 30. Crimson Wilds Battle Theme
 31. Crimson Wilds Boss Theme
 32. Azar Boss Theme Phase 1
-33. Azar Boss Theme Phase 2
+33. Azar Boss Theme Phase 2 (feat. FiNE)
 34. Program Master Boss Theme Phase 1
 35. Program Master Boss Theme Phase 2
 36. Memory Lane
