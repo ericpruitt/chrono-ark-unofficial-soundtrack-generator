@@ -299,7 +299,7 @@ def main(argv):
         },
 
         {
-            "name": "Bloody Park 1 Boss Theme",
+            "name": "Bloody Park Boss Theme",
             "parts": [
                 fade_out("CA_Boss02.wav", 110, 5),
             ],
