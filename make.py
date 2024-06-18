@@ -263,6 +263,7 @@ def main(argv):
 
         {
             "name": "Shiranui Battle Theme",
+            "artist": "Hox2 (Studio EIM)",
             "parts": [
                 "Shiranui_Battle.wav",
                 fade_out("Shiranui_Battle.wav", 76, 11),
@@ -463,7 +464,8 @@ def main(argv):
         },
 
         {
-            "name": "Azar Boss Theme Phase 2",
+            "name": "Azar Boss Theme Phase 2 (feat. FiNE)",
+            "artist": "Lee Dong Hoon (Studio EIM)",
             "parts": [
                 fade_out("Azar_Boss_Theme_Phase2_(Intro).wav", -12, 9),
             ],
@@ -472,6 +474,7 @@ def main(argv):
 
         {
             "name": "Program Master Boss Theme Phase 1",
+            "artist": "Rindaman (Studio EIM)",
             "parts": [
                 "ProgramMaster_Boss_Theme_Phase1_(Intro).wav",
                 fade_out("ProgramMaster_Boss_Theme_Phase1_(Loop).wav", -6, 5),
@@ -481,6 +484,7 @@ def main(argv):
 
         {
             "name": "Program Master Boss Theme Phase 2",
+            "artist": "Rindaman (Studio EIM)",
             "parts": [
                 "ProgramMaster_Boss_Theme_Phase2_(Intro).wav",
                 fade_out("ProgramMaster_Boss_Theme_Phase2_(Loop).wav", -10, 8),
@@ -570,6 +574,7 @@ def main(argv):
 
         {
             "name": "Everything Meaning",
+            "artist": "Rindaman (Studio EIM)",
             "parts": [
                 "EverythingMeaning.wav",
             ],
@@ -660,6 +665,7 @@ def main(argv):
 
         {
             "name": "End Credits Background Music",
+            "artist": "KuaNu (Studio EIM)",
             "parts": [
                 "TrueEndCredit_BGM.wav",
             ],
