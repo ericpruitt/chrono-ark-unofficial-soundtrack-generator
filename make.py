@@ -251,9 +251,6 @@ def main(argv):
         {
             "name": "Crush & Contort (Misty Garden 2 Battle Theme)",
             "parts": [
-                # When the intro plays in game, it is truncated. Not sure if
-                # this is a bug in the game caused by its performance issues or
-                # a deliberate decision.
                 "02 Crush & Contort (Battle Front).wav",
                 fade_out("02 Crush & Contort (Battle Loop).wav", 92, 6),
             ],
