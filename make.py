@@ -11,6 +11,15 @@ import shlex
 import subprocess
 import sys
 
+# Users used to running commands inside a shell on Windows may expect commands
+# in the same directory as the script to be implicitly be examined before
+# %PATH% folders.
+if sys.platform == "win32":
+    if os.environ.get("PATH"):
+        os.environ["PATH"] = os.getcwd() + ";" + os.environ["PATH"]
+    else:
+        os.environ["PATH"] = os.getcwd()
+
 
 @functools.lru_cache
 def track_length(path):
