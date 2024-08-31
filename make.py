@@ -48,7 +48,7 @@ def fade_in(source, duration):
 
     Arguments:
     - source: Audio source. This can be a file name or a file name that has
-      been processed by "fade_in".
+      been processed by "fade_in" or "volume".
     - duration: Number of seconds the fade in should take.
 
     Return: Metadata used by "build_track" function to generate the output
@@ -63,7 +63,7 @@ def fade_out(source, start, duration=None):
 
     Arguments:
     - source: Audio source. This can be a file name or a file name that has
-      been processed by "fade_in".
+      been processed by "fade_in" or "volume".
     - start: Offset in the source audio where the fade begins. If this is
       negative, it is interpreted as the number of seconds from the end of the
       file.
@@ -86,6 +86,25 @@ def fade_out(source, start, duration=None):
     return (
         f"afade=type=out:start_time={start}:duration={duration}\0" +
         f"atrim=start=0:end={start + duration}\0" +
+        source
+    )
+
+
+def volume(source, value):
+    """
+    Adjust the volume to the specified audio source.
+
+    Arguments:
+    - source: Audio source. This can be a file name or a file name that has
+      been processed by "fade_in" or "fade_out".
+    - value: The volume value. This can be a number or a string to, for
+      example, specify a decibel adjustment.
+
+    Return: Metadata used by "build_track" function to generate the output
+    file.
+    """
+    return (
+        f"volume={value}\0" +
         source
     )
 
@@ -483,7 +502,10 @@ def main(argv):
             "artist": "Lee Dong Hoon (Studio EIM)",
             "lyrics-file": "azar-boss-theme-2-lyrics.txt",
             "parts": [
-                fade_out("Azar_Boss_Theme_Phase2_(Intro).wav", -12, 9),
+                volume(
+                    fade_out("Azar_Boss_Theme_Phase2_(Intro).wav", -12, 9),
+                    0.7,
+                ),
             ],
             "gap": 1,
         },

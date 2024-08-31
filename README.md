@@ -19,7 +19,10 @@ to generate the output files. The script has been tested on Linux and Windows
 with Python 3.9+, but it should work on any operating system that has the
 "ffmpeg" and "ffprobe" executables in a `$PATH`/`%PATH%` directory and any
 version of Python starting from 3.6. On Windows, the FFmpeg binaries can also
-be placed in the same directory as the script.
+be placed in the same directory as the script. The script adjusts the volume of
+"Azar Boss Theme Phase 2 (feat. FiNE)" since its average loudness is relatively
+high. This change can be reverted by deleting the "volume" function call inside
+the song definition in "make.py".
 
 **NOTE:** I made this script because, at the time of this writing, the game's
 music is not available for purchase. If you are reading this after the official
