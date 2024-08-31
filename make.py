@@ -98,7 +98,8 @@ def volume(source, value):
     - source: Audio source. This can be a file name or a file name that has
       been processed by "fade_in" or "fade_out".
     - value: The volume value. This can be a number or a string to, for
-      example, specify a decibel adjustment.
+      example, specify a decibel adjustment. See
+      <https://trac.ffmpeg.org/wiki/AudioVolume> for details.
 
     Return: Metadata used by "build_track" function to generate the output
     file.
