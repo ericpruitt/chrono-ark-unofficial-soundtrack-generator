@@ -176,7 +176,8 @@ def build_track(output_directory, track, trackno):
         argv += ["-metadata", f"ARTIST={track['artist']}"]
 
     if lyrics_file:
-        with open(os.path.join(os.path.dirname(__file__), lyrics_file), encoding="utf8") as fd:
+        with open(os.path.join(os.path.dirname(__file__), lyrics_file),
+          encoding="utf8") as fd:
             argv += ["-metadata", f"LYRICS={fd.read()}"]
 
     argv += [output]
