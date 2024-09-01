@@ -209,7 +209,7 @@ def main(argv):
 
     # Where possible, track names were copied from
     # <https://selector.bandcamp.com/album/chrono-ark-ost> and
-    # <https://soundcloud.com/cosmogrph/the-legendary-phoenix-chrono-ark-sound-track>.
+    # <https://soundcloud.com/cosmogrph/sets/chrono-ark-work>.
     tracks = [
         {
             "name": "Chrono Ark Intro Theme",
