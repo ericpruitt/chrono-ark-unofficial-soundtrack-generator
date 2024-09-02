@@ -599,7 +599,8 @@ def main(argv):
         },
 
         {
-            "name": "Deeper, Deeper",
+            "name": "Broken World",
+            "artist": "Cosmograph",
             "parts": [
                 # TODO: Instead of doubling, maybe extend by 30 seconds.
                 "DeeperDeeper.wav",
