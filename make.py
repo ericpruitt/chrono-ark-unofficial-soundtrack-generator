@@ -336,7 +336,7 @@ def main(argv):
         },
 
         {
-            "name": "Bloody Park Boss Theme",
+            "name": "Final March of Broken Toys (Bloody Park Boss Theme)",
             "parts": [
                 fade_out("CA_Boss02.wav", 110, 5),
             ],

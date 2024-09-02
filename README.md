@@ -64,7 +64,7 @@ purchasing the music.
 12. Encounter Dorchi
 13. Place of Void (Bloody Park 1 Field Theme)
 14. After Revive (Bloody Park 1 Battle Theme)
-15. Bloody Park Boss Theme
+15. Final March of Broken Toys (Bloody Park Boss Theme)
 16. Show Time (The Joker's Theme)
 17. The Phenomenon (Bloody Park 2 Field Theme)
 18. Obstructor (Bloody Park 2 Battle Theme)
