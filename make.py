@@ -375,10 +375,6 @@ def main(argv):
         },
 
         {
-            # "White Grave" should probably be "White Graveyard," and that is
-            # what a lot of the English-speaking community calls it. Need to
-            # look at Korean text to confirm, but either way, the game's text
-            # uses "White Grave", so that's what I'll use.
             "name": "White Grave Field Theme",
             "parts": [
                 fade_out("CA_Field03.wav", -6, 4),
