@@ -620,8 +620,6 @@ def main(argv):
         {
             "name": "It's Time to Choose",
             "parts": [
-                # TODO: figure out if this is the right order. Not sure where
-                # this is played.
                 "It's Time to Choose loop.wav",
                 "It's Time to Choose climax.wav",
             ]
