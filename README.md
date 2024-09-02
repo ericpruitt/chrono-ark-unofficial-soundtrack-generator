@@ -99,7 +99,7 @@ purchasing the music.
 47. Outbreak
 48. Abyss
 49. Story Background Music
-50. Story Serious Background Music
+50. Serious Story Background Music
 51. The Legendary Phoenix
 52. There's No Way
 53. Virtual Emotions

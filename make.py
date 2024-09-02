@@ -658,7 +658,7 @@ def main(argv):
         },
 
         {
-            "name": "Story Serious Background Music",
+            "name": "Serious Story Background Music",
             "parts": [
                 "StoryBGM_serious.wav",
                 fade_out("StoryBGM_serious.wav", -8, 6),
