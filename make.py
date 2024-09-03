@@ -620,6 +620,15 @@ def main(argv):
         },
 
         {
+            "name": "Twisted Thoughts",
+            "parts": [
+                "Twisted Thoughts.wav",
+                fade_out("Twisted Thoughts.wav", -10, 8),
+            ],
+            "gap": 1,
+        },
+
+        {
             "name": "Virtual Emotions",
             "parts": [
                 "VirtualEmotions.wav",

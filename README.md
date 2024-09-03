@@ -95,13 +95,14 @@ purchasing the music.
 43. The Legendary Phoenix
 44. Broken World
 45. There's No Way
-46. Virtual Emotions
-47. Dystopia
-48. Abyss
-49. Outbreak
-50. Everything Meaning
-51. Clone
-52. It's Time to Choose
-53. Wrong Beginning
-54. End Credits Background Music
-55. Challenge (Early Access Azar Boss Theme)
+46. Twisted Thoughts
+47. Virtual Emotions
+48. Dystopia
+49. Abyss
+50. Outbreak
+51. Everything Meaning
+52. Clone
+53. It's Time to Choose
+54. Wrong Beginning
+55. End Credits Background Music
+56. Challenge (Early Access Azar Boss Theme)
