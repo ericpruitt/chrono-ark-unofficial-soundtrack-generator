@@ -74,34 +74,34 @@ purchasing the music.
 22. Sanctuary
 23. Anxiety
 24. End Of Light
-25. Challenge (Early Access Azar Boss Theme)
-26. Glitchy Chrono Ark Intro Theme
-27. Chrono Ark Ex
-28. Restart
-29. Crimson Wilds
-30. Crimson Wilds Battle Theme
-31. Crimson Wilds Boss Theme
-32. Azar Boss Theme Phase 1
-33. Azar Boss Theme Phase 2 (feat. FiNE)
-34. Program Master Boss Theme Phase 1
-35. Program Master Boss Theme Phase 2
-36. Memory Lane
-37. Clock Tower Theme
-38. Ark System
-39. Infinity
-40. Opposition
-41. Dystopia
+25. Chrono Ark Ex
+26. Crimson Wilds
+27. Crimson Wilds Battle Theme
+28. Crimson Wilds Boss Theme
+29. Azar Boss Theme Phase 1
+30. Azar Boss Theme Phase 2 (feat. FiNE)
+31. Program Master Boss Theme Phase 1
+32. Program Master Boss Theme Phase 2
+33. Memory Lane
+34. Story Background Music
+35. Clock Tower Theme
+36. Ark System
+37. Glitchy Chrono Ark Intro Theme
+38. Infinity
+39. Opposition
+40. Restart
+41. Serious Story Background Music
 42. Ark Sight
-43. Clone
+43. The Legendary Phoenix
 44. Broken World
-45. Everything Meaning
-46. It's Time to Choose
-47. Outbreak
+45. There's No Way
+46. Virtual Emotions
+47. Dystopia
 48. Abyss
-49. Story Background Music
-50. Serious Story Background Music
-51. The Legendary Phoenix
-52. There's No Way
-53. Virtual Emotions
-54. Wrong Beginning
-55. End Credits Background Music
+49. Outbreak
+50. Everything Meaning
+51. Clone
+52. It's Time to Choose
+53. Wrong Beginning
+54. End Credits Background Music
+55. Challenge (Early Access Azar Boss Theme)

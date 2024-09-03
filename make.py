@@ -429,34 +429,9 @@ def main(argv):
         },
 
         {
-            "name": "Challenge (Early Access Azar Boss Theme)",
-            "parts": [
-                fade_out("Challenge.wav", -7, 5),
-            ],
-            "gap": 1,
-        },
-
-        {
-            "name": "Glitchy Chrono Ark Intro Theme",
-            "parts": [
-                "ChagedIntro.wav",
-            ],
-            "gap": 1,
-        },
-
-        {
             "name": "Chrono Ark Ex",
             "parts": [
                 "choronoArk_ex.wav",
-            ],
-        },
-
-        {
-            "name": "Restart",
-            "parts": [
-                "ReStart_Intro.wav",
-                "ReStart.wav",
-                fade_out("ReStart.wav", -10, 8),
             ],
         },
 
@@ -537,6 +512,14 @@ def main(argv):
         },
 
         {
+            "name": "Story Background Music",
+            "parts": [
+                "StoryBGM_2.wav",
+                fade_out("StoryBGM_2.wav", -3, 0),  # Trim excess silence.
+            ],
+        },
+
+        {
             "name": "Clock Tower Theme",
             "parts": [
                 "ClockTower.wav",
@@ -551,6 +534,14 @@ def main(argv):
                 "ArkSystemBootUp.wav",
                 fade_in("ArkSystemAmbiLoop.wav", 2),
                 fade_out("ArkSystemAmbiLoop.wav", -5),
+            ],
+            "gap": 1,
+        },
+
+        {
+            "name": "Glitchy Chrono Ark Intro Theme",
+            "parts": [
+                "ChagedIntro.wav",
             ],
             "gap": 1,
         },
@@ -573,82 +564,11 @@ def main(argv):
         },
 
         {
-            "name": "Dystopia",
+            "name": "Restart",
             "parts": [
-                "Dystopia_intro.wav",
-                fade_out("Dystopia_loop.wav", -6, 5),
-            ],
-            "gap": 1,
-        },
-
-        {
-            "name": "Ark Sight",
-            "parts": [
-                "ArkSight.wav",
-                fade_out("ArkSight.wav", -15, 8),
-            ],
-        },
-
-        {
-            "name": "Clone", # TODO: figure out where this is played.
-            "parts": [
-                "Clone.wav",
-                fade_out("Clone.wav", -8, 6.5),
-            ],
-            "gap": 1,
-        },
-
-        {
-            "name": "Broken World",
-            "artist": "Cosmograph",
-            "parts": [
-                # TODO: Instead of doubling, maybe extend by 30 seconds.
-                "DeeperDeeper.wav",
-                fade_out("DeeperDeeper.wav", -5),
-            ],
-            "gap": 1,
-        },
-
-        {
-            "name": "Everything Meaning",
-            "artist": "Rindaman (Studio EIM)",
-            "parts": [
-                "EverythingMeaning.wav",
-            ],
-        },
-
-        {
-            "name": "It's Time to Choose",
-            "parts": [
-                "It's Time to Choose loop.wav",
-                "It's Time to Choose climax.wav",
-            ]
-        },
-
-        {
-            # XXX: Should this be "Breakout?"
-            "name": "Outbreak",
-            "parts": [
-                "OutBreak.wav",
-                fade_out("OutBreak.wav", -10, 6),
-            ],
-            "gap": 1,
-        },
-
-        {
-            "name": "Abyss",
-            "parts": [
-                "Story_3_Abyss_loop.wav",
-                fade_out("Story_3_Abyss_loop.wav", 10, 7),
-            ],
-            "gap": 1,
-        },
-
-        {
-            "name": "Story Background Music",
-            "parts": [
-                "StoryBGM_2.wav",
-                fade_out("StoryBGM_2.wav", -3, 0),  # Trim excess silence.
+                "ReStart_Intro.wav",
+                "ReStart.wav",
+                fade_out("ReStart.wav", -10, 8),
             ],
         },
 
@@ -662,11 +582,30 @@ def main(argv):
         },
 
         {
+            "name": "Ark Sight",
+            "parts": [
+                "ArkSight.wav",
+                fade_out("ArkSight.wav", -15, 8),
+            ],
+        },
+
+        {
             "name": "The Legendary Phoenix",
             "artist": "Cosmograph",
             "parts": [
                 "pheonix_theme.wav",
                 fade_out("pheonix_theme.wav", -7),
+            ],
+            "gap": 1,
+        },
+
+        {
+            "name": "Broken World",
+            "artist": "Cosmograph",
+            "parts": [
+                # TODO: Instead of doubling, maybe extend by 30 seconds.
+                "DeeperDeeper.wav",
+                fade_out("DeeperDeeper.wav", -5),
             ],
             "gap": 1,
         },
@@ -690,7 +629,60 @@ def main(argv):
         },
 
         {
-            "name": "Wrong Beginning",
+            "name": "Dystopia",
+            "parts": [
+                "Dystopia_intro.wav",
+                fade_out("Dystopia_loop.wav", -6, 5),
+            ],
+            "gap": 1,
+        },
+
+        {
+            "name": "Abyss",
+            "parts": [
+                "Story_3_Abyss_loop.wav",
+                fade_out("Story_3_Abyss_loop.wav", 10, 7),
+            ],
+            "gap": 1,
+        },
+
+        {
+            # XXX: Should this be "Breakout?"
+            "name": "Outbreak",
+            "parts": [
+                "OutBreak.wav",
+                fade_out("OutBreak.wav", -10, 6),
+            ],
+            "gap": 1,
+        },
+
+        {
+            "name": "Everything Meaning",
+            "artist": "Rindaman (Studio EIM)",
+            "parts": [
+                "EverythingMeaning.wav",
+            ],
+        },
+
+        {
+            "name": "Clone", # TODO: figure out where this is played.
+            "parts": [
+                "Clone.wav",
+                fade_out("Clone.wav", -8, 6.5),
+            ],
+            "gap": 1,
+        },
+
+        {
+            "name": "It's Time to Choose",
+            "parts": [
+                "It's Time to Choose loop.wav",
+                "It's Time to Choose climax.wav",
+            ]
+        },
+
+        {
+            "name": "Wrong Beginning", # Played during office scenes i think
             "artist": "Selector",
             "parts": [
                 "Wrong Beginning (Front).wav",
@@ -704,6 +696,14 @@ def main(argv):
             "parts": [
                 "TrueEndCredit_BGM.wav",
             ],
+        },
+
+        {
+            "name": "Challenge (Early Access Azar Boss Theme)",
+            "parts": [
+                fade_out("Challenge.wav", -7, 5),
+            ],
+            "gap": 1,
         },
     ]
 
